@@ -310,6 +310,13 @@ a {
     color: var(--main-1-color);
 }
 
+.portfolio{
+    position: absolute;
+    width: 1170px;
+    height: 1360px;
+    padding-left: 215px;
+}
+
 
 
 /* 
