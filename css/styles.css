@@ -17,54 +17,73 @@ a {
 
 .link {
     color: black;
-  }
+    text-align: center;
+}
   
-  .link:hover {
-    color: teal;
-  }
+.link:hover {
+    color: blue;
+}
+
+.social-link{
+    background: black;
+}
+
+.social-link:hover{
+    background: blue;
+}
+
 
 .header{
     width: 1600px;
-    height: 81px;
-    left: 0px;
-    right: 0px;
+    height: 80px;
+    display: inline-block;
 }
 
-.header-nav{
+.logo{
     padding-left: 215px;
-    padding-top: 32px;
-    float: left;
+    padding-top: 24px;
 }
 
-.logo-blu{
-    color: blue;
-}
-.logo-black{
-    color: black;
+.header-nav-studio{
+    padding-left: 453px;
 }
 
-.header-nav-item{
-    display: inline-block;
-    font-size: 20px;
-    font-weight: 900;
+.header-nav-portfolio{
+    padding-left: 552px;
 }
 
-.header-contacts{
-    padding-right: 215px;
+.header-nav-contacts{
+    padding-left: 679px;
+}
+.header-email{
+    margin-left: 1052px;
 }
 
-.header-contacts-item{
-    padding-top: 32px;
-    display: inline-block;
-    float: right;
-    color: silver;
+.header-phone{
+    padding-left: 1243px;
 }
 
 .main{
     width: 1600px;
     height: 600px;
-    padding-left: 0px;
-    padding-top: 0px;
+    padding-top: 80px;
+}
+
+.main-title{    
+    margin-top: -280px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 44px;
+    line-height: 60px;   
+}
+
+.link-main{
+    padding-left: 732px;
+    color: #FFFFFF;
+    line-height: 30px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 
 .features{
@@ -171,6 +190,7 @@ a {
 }
 .team-card-description-skills{
     padding-top: 10px;
+    color:  #757575;
 }
 .team-card-description-social{
     padding-top: 16px;
@@ -234,6 +254,10 @@ a {
     left: 215px;
     top: 2849px;
     float: left;
+}
+
+.web{
+    color: blue;
 }
 
 .add-social-network{

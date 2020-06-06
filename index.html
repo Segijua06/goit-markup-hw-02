@@ -5,43 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home work</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/normalize.css">
 
 </head>
 <body>
     <div>
                 <!-- TOP LINE -->
         <header class="header">
-            <nav class="header-nav">
-                <a href="index.html" class="link">
-                <span class="logo-blu">Web</span>
-                <span class="logo-black">studio</span>
-                </a>
-                <ul>
-                    <li class="header-nav-item" ><a href="index.html">Web Studio</a></li>
-                    <li class="header-nav-item"><a href="index.html">Студия</a></li>
-                    <li class="header-nav-item"><a href="portfolio.html">Портфолио</a></li>
-                    <li class="header-nav-item"><a href="#contacts">Контакты</a></li>
-                </ul>
-
-                <!--Contacts container-->                      
-                <ul class="header-contacts">
-                    <li class="header-contacts-item"><a href="mailto:info@devstudio.com"> &#9993; info@devstudio.com </a></li>
-                    <li class="header-contacts-item"><a href="tel:+380961111111"> &#128222; +38 096 111 11 11 </a> </li>
-                </ul>
+            <nav>
+                <div class="logo">
+                    <a href="index.html"><img src="./images/logo.png" alt="logo"></a>
+                </div>
+                <div>                
+                    <ul>                    
+                        <li class="header-nav-studio"><a href="index.html" class="link">Студия</a></li>
+                        <li class="header-nav-portfolio"><a href="portfolio.html"  class="link">Портфолио</a></li>
+                        <li class="header-nav-contacts"><a href="#contacts"  class="link">Контакты</a></li>
+                        <li class="header-email"><a href="mailto:info@devstudio.com"  class="link"> &#9993; info@devstudio.com </a></li>
+                        <li class="header-phone"><a href="tel:+380961111111" class="link"> &#128222; +38 096 111 11 11 </a> </li>
+                    </ul>
+                </div>
             </nav>                                    
         </header>
-        
-        <p>
-            Отличную шпаргалку по тегам можно найти
-            <a href="https://htmlreference.io" class="link">по ссылке</a>.
-          </p>
 
                 <!-- Main container -->
         <section>
             <div class="main">
                 <img src="./images/main.jpg" alt="Эфективные решения">
-                <h1>ЕФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-                <a href="">Заказать услугу</a>
+                <h1 class="main-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br> ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+                <button class="link-main"> <span>Заказать услугу</span></button>
             </div>
 
                     <!-- Features -->
@@ -85,57 +77,57 @@
                 <div class="team">
                     <h2 class="our-team-title">НАША КОМАНДА</h2>
                     <div class="team-card-1"> 
-                        <img src="./images/John_Smith.jpg" alt="John Smith">
+                        <img src="./images/John_Smith.jpg" alt="Николай Кучеренко">
                         <div class="team-card-description">
-                            <h3 class="team-card-description-name">John Smith</h3>
+                            <h3 class="team-card-description-name">Николай Кучеренко</h3>
                             <p class="team-card-description-skills">Product Designer</p>
                             <div class="team-card-description-social">
-                                <a href=""><img src="./images/instagram.jpg" alt="instagram"></a>
-                                <a href=""><img src="./images/twitter.jpg" alt="twitter"></a>
-                                <a href=""><img src="./images/facebook.jpg" alt="facebook"></a>
-                                <a href=""><img src="./images/linkedin.jpg" alt="linkedin"></a>                
+                                <a href="" class="social-link"><img src="./images/instagram.jpg" alt="instagram"></a>
+                                <a href="" class="social-link"><img src="./images/twitter.jpg" alt="twitter"></a>
+                                <a href="" class="social-link"><img src="./images/facebook.jpg" alt="facebook"></a>
+                                <a href="" class="social-link"><img src="./images/linkedin.jpg" alt="linkedin"></a>                
                             </div>
                         </div>
                     </div>
 
                     <div class="team-card-2">
-                        <img src="./images/Marta_Stewart.jpg" alt="Marta Stewart">
+                        <img src="./images/Marta_Stewart.jpg" alt="Ольга Иванова">
                         <div class="team-card-description">
-                            <h3 class="team-card-description-name">Marta Stewart</h3>
+                            <h3 class="team-card-description-name">Ольга Иванова</h3>
                             <p class="team-card-description-skills">Frontend Developer</p>
                             <div class="team-card-description-social">
-                                <a href=""><img src="./images/instagram.jpg" alt="instagram"></a>
-                                <a href=""><img src="./images/twitter.jpg" alt="twitter"></a>
-                                <a href=""><img src="./images/facebook.jpg" alt="facebook"></a>
-                                <a href=""><img src="./images/linkedin.jpg" alt="linkedin"></a> 
+                                <a href="" class="social-link"><img src="./images/instagram.jpg" alt="instagram"></a>
+                                <a href="" class="social-link"><img src="./images/twitter.jpg" alt="twitter"></a>
+                                <a href="" class="social-link"><img src="./images/facebook.jpg" alt="facebook"></a>
+                                <a href="" class="social-link"><img src="./images/linkedin.jpg" alt="linkedin"></a> 
                             </div>
                         </div>
                     </div>
 
                     <div class="team-card-3">
-                        <img src="./images/Robert_Jakis.jpg" alt="Robert Jakis">
+                        <img src="./images/Robert_Jakis.jpg" alt="Андрей Шевченко">
                         <div class="team-card-description">
-                            <h3 class="team-card-description-name">Robert Jakis</h3>
+                            <h3 class="team-card-description-name">Андрей Шевченко</h3>
                             <p class="team-card-description-skills">Marketing</p>
                             <div class="team-card-description-social">
-                                <a href=""><img src="./images/instagram.jpg" alt="instagram"></a>
-                                <a href=""><img src="./images/twitter.jpg" alt="twitter"></a>
-                                <a href=""><img src="./images/facebook.jpg" alt="facebook"></a>
-                                <a href=""><img src="./images/linkedin.jpg" alt="linkedin"></a> 
+                                <a href="" class="social-link"><img src="./images/instagram.jpg" alt="instagram"></a>
+                                <a href="" class="social-link"><img src="./images/twitter.jpg" alt="twitter"></a>
+                                <a href="" class="social-link"><img src="./images/facebook.jpg" alt="facebook"></a>
+                                <a href="" class="social-link"><img src="./images/linkedin.jpg" alt="linkedin"></a> 
                             </div>
                         </div>
                     </div>
 
                     <div class="team-card-4">
-                        <img src="./images/Martin_Doe.jpg" alt="Martin Doe">
+                        <img src="./images/Martin_Doe.jpg" alt="Иван Николаев">
                         <div class="team-card-description">
-                            <h3 class="team-card-description-name">Martin Doe</h3>
+                            <h3 class="team-card-description-name">Иван Николаев</h3>
                             <p class="team-card-description-skills">UI Designer</p>
                             <div class="team-card-description-social">
-                                <a href=""><img src="./images/instagram.jpg" alt="instagram"></a>
-                                <a href=""><img src="./images/twitter.jpg" alt="twitter"></a>
-                                <a href=""><img src="./images/facebook.jpg" alt="facebook"></a>
-                                <a href=""><img src="./images/linkedin.jpg" alt="linkedin"></a> 
+                                <a href="" class="social-link"><img src="./images/instagram.jpg" alt="instagram"></a>
+                                <a href="" class="social-link"><img src="./images/twitter.jpg" alt="twitter"></a>
+                                <a href="" class="social-link"><img src="./images/facebook.jpg" alt="facebook"></a>
+                                <a href="" class="social-link"><img src="./images/linkedin.jpg" alt="linkedin"></a> 
                             </div>
                         </div>
                     </div>   
@@ -168,10 +160,10 @@
 
                 <div class="add-social-network">
                     <p class="add-social-network-title">ПРИСОЕДИНЯЙТЕСЬ</p>
-                    <a href=""><img src="./images/instagram.jpg" alt="instagram"></a>
-                    <a href=""><img src="./images/twitter.jpg" alt="twitter"></a>
-                    <a href=""><img src="./images/facebook.jpg" alt="facebook"></a>
-                    <a href=""><img src="./images/linkedin.jpg" alt="linkedin"></a> 
+                    <a href=""  class="social-link"><img src="./images/instagram.jpg" alt="instagram"></a>
+                    <a href="" class="social-link"><img src="./images/twitter.jpg" alt="twitter"></a>
+                    <a href="" class="social-link"><img src="./images/facebook.jpg" alt="facebook"></a>
+                    <a href="" class="social-link"><img src="./images/linkedin.jpg" alt="linkedin"></a> 
                 </div>
 
                 <div class="subscription">
