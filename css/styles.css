@@ -15,21 +15,31 @@ a {
     text-decoration: none;  /*Убирает подчеткивание в ссылок*/
 }
 
+:root {
+    --main-1-color: black;
+    --main-2-color: blue;
+    --main-3-color: white;
+    --main-4-color: #757575;
+  }
+
 .link {
-    color: black;
+    color: var(--main-1-color);
     text-align: center;
 }
   
 .link:hover {
-    color: blue;
+    color: var(--main-2-color);
 }
 
+.link:focus{
+    color: var(--main-2-color);
+}
 .social-link{
-    background: black;
+    background: var(--main-1-color);
 }
 
 .social-link:hover{
-    background: blue;
+    background: var(--main-2-color);
 }
 
 
@@ -41,7 +51,7 @@ a {
 
 .logo{
     padding-left: 215px;
-    padding-top: 24px;
+    margin-top: 24px;
 }
 
 .header-nav-studio{
@@ -71,7 +81,7 @@ a {
 
 .main-title{    
     margin-top: -280px;
-    color: #FFFFFF;
+    color: var(--main-3-color);
     text-align: center;
     font-size: 44px;
     line-height: 60px;   
@@ -79,9 +89,9 @@ a {
 
 .link-main{
     padding-left: 732px;
-    color: #FFFFFF;
+    color: var(--main-3-color);
     line-height: 30px;
-    background: #2196F3;
+    background: var(--main-2-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
@@ -97,7 +107,7 @@ a {
 }
 
 .features-1{
-    background: #fff; 
+    background: var(--main-3-color); 
     padding: 10px; 
     display: block; 
     width: 270px; 
@@ -108,7 +118,7 @@ a {
 }
 
 .features-2{
-    background: #fff; 
+    background: var(--main-3-color); 
     padding: 10px; 
     display: block;
     width: 270px; 
@@ -119,7 +129,7 @@ a {
 }
 
 .features-3{
-    background: #fff; 
+    background: var(--main-3-color); 
     padding: 10px; 
     display: block; 
     width: 270px; 
@@ -129,7 +139,7 @@ a {
     text-align: center; 
 }
 .features-4{
-    background: #fff; 
+    background: var(--main-3-color); 
     padding: 10px;
     display: block;
     width: 270px; 
@@ -153,7 +163,7 @@ a {
     padding-left: 450px;
     line-height: 30px;
     margin-bottom: 45px;
-    color: #212121;    
+    color: var(--main-1-color);    
 }
 
 .our-team{
@@ -163,7 +173,7 @@ a {
     height: 702px;
     left: 0px;
     top: 1563px;    
-    background: #F5F4FA;
+    background: var(--main-3-color);
 }
 
 .team{
@@ -181,7 +191,7 @@ a {
 .team-card-description{
     height: 162px;
     margin-top: -5px;
-    background-color: #fff;
+    background-color: var(--main-3-color);
     text-align: center;
 }
 
@@ -257,7 +267,7 @@ a {
 }
 
 .web{
-    color: blue;
+    color: var(--main-2-color);
 }
 
 .add-social-network{
@@ -269,7 +279,7 @@ a {
 }
 
 .add-social-network-title{
-    color: #fff;
+    color: var(--main-3-color);
 }
 
 .subscription{
@@ -285,6 +295,21 @@ a {
     margin-left: 646px;
     color: rgba(255, 255, 255, 0.4);
 }
+
+
+/* Portfolio */
+
+.project-title{
+    color: var(--main-1-color);
+}
+
+.project-skills{
+    color: var(--main-4-color);
+}
+.project-description{
+    color: var(--main-1-color);
+}
+
 
 
 /* 
